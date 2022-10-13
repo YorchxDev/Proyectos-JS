@@ -1,0 +1,87 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: yellow;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Reem Kufi Ink', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-superior {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.barra-inferior {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.contenedor {
+    height: 80%;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.salario-input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+
+.titulo {
+    font-size: 30px;
+}
+
+.costo {
+    margin-bottom: 50px;
+}
+
+.btn input{
+    padding: 15px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+p {
+    padding: 10px;
+background-color: white;
+display: inline;
+border-radius: 15px;
+font-weight: 700;
+}
