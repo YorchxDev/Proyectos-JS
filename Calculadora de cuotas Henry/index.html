@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Calculadora HENRY</title>
+</head>
+<body>
+
+    <div class="barra-superior"></div>
+
+        <div class="contenedor flex contenido">
+
+           
+            <h1 class="titulo">Calculador de cuotas de HENRY</h1>
+           
+
+            <div class="salario">
+                <h3>¿Cuánto es tu salario?</h3>
+                <input type="number" class="salario-input" id="salario-input">
+            </div>
+
+            <div class="mensualidad">
+                <h3>Cada pago mensual sería:</h3>
+                <p class="costo-output" id="mensualidad">$0 hasta que empiezas a trabajar</p>
+            </div>
+
+            <div class="cuotas">
+                <h3>Total de cuotas es:</h3>
+                <p class="cuotas-output" id="cuotas">24 cuotas</p>
+            </div>
+
+            <div class="costo">
+                <h3>El total del curso es:</h3>
+                <p class="costo-output" id="costo">$0 hasta que empiezas a trabajar</p>
+            </div>
+
+            <div class="btn">
+                <input type="button" value="Calcular" id="btn">
+            </div>
+
+        </div>
+
+
+    <div class="barra-inferior"></div>
+    
+    <script src="/app.js"></script>
+</body>
+</html>

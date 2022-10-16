@@ -1,0 +1,79 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(https://economipedia.com/wp-content/uploads/sistema-binario.jpg);
+}
+
+/* Utilidades */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* General */
+
+.contenido {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.titulo {
+    text-align: center;
+    /* padding-top: 2rem; */
+}
+
+.contenedor {
+    width: 50rem;
+    height: 40rem;
+}
+
+.entrada {
+    width: 30rem;
+    height: 10rem;
+}
+
+.entrada h2 {
+    text-align: center;
+}
+
+.input {
+    text-align: center;
+    width: 20rem;
+    height: 4.5rem;
+    border-radius: 1.5rem;
+}
+
+.salida {
+    width: 30rem;
+    height: 10rem;
+}
+
+.salida h2 {
+    text-align: center;
+}
+
+.boton {
+    max-width: 35rem;
+    width: 90%;
+    height: 4rem;   
+    margin-bottom: 2rem;
+}
