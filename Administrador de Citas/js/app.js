@@ -1,16 +1,16 @@
 // jquery para efecto parallax
 
-$(document).ready(function() {
+// $(document).ready(function() {
     
-    $(window).scroll(function() {
-        let bar = $(window).scrollTop();
-        let pos = bar * 0.10; // Velocidad del parallax
+//     $(window).scroll(function() {
+//         let bar = $(window).scrollTop();
+//         let pos = bar * 0.10; // Velocidad del parallax
 
-        $('body').css({
-            'background-position': '0 -' + pos + 'px'
-        });
-    });
-});
+//         $('body').css({
+//             'background-position': '0 -' + pos + 'px'
+//         });
+//     });
+// });
 
 //********************************************************//
 /* Formulario */
